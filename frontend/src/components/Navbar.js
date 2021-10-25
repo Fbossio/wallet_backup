@@ -23,7 +23,9 @@ const Navbar = () => {
           </div>
           <Menu theme="dark" mode="horizontal" defaultSelectedKeys={["2"]}>
             <Menu.Item key="1">Dashboard</Menu.Item>
-            <Menu.Item key="2">Wallet</Menu.Item>
+            <Menu.Item key="2">
+              <Link to="/wallet">Wallet</Link>
+            </Menu.Item>
             <Menu.Item key="3">Store</Menu.Item>
             <Menu.Item key="4">
               <Link to="/register">Sign-Up</Link>
